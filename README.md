@@ -4,9 +4,9 @@ Website Data Scraping and Store data in Database and create Your own API
         <?php
         
          $hostname= 'localhost';
-         $user_name= 'bongote1_chat_app';
-         $password= 'sazzadSA017#';
-         $dbname='bongote1_chatapp';
+         $user_name= 'Database User Name';
+         $password= 'Database Password';
+         $dbname='Database Name';
          
          
          $con= mysqli_connect($hostname,$user_name,$password,$dbname);
